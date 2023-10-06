@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto pag1</title>
+        <meta name="author" content="Juanjo Mengual">
+    </head>
+    <body>
+        <!-- Titulo y autor y num de pag-->
+        <h1>La Wonder Biografia (1/2)</h1>
+        <p>por <mark>JuanJo Mengual</mark></p>
+
+        <h3>~ ¿Quién soy? ~</h3>
+        <!--Está mal el nombre de la imagen a proposito para mostrar el "texto alternativo"-->
+        <img src= "./codificad.jpg" alt="Foto de perfil" width="50%" >
+        
+        <!-- Imagen que ocupa el 50% de la pantalla, alineada a la derecha -->
+        <img src= "./javea.jpg" alt="Atardecer en Xàbia/Jávea" align="right" width="50%" >
+
+        <p>Soy un chico de Xàbia de 37 años, me considero bastante alegre, educado 
+            y constante en lo que hago y me propongo</p>
+
+        <!-- Incluye un enlace a la web del centro educativo donde cursé DAM -->
+        <p>Tengo el título en Técnico Superior en DAM, dicho curso lo cursé en  
+            <a href="https://portal.edu.gva.es/ieslamar/" target="_blank">IES La Mar</a></p>
+        
+        <!-- Aplico distintas etiquetas para diferenciar algun texyo -->
+        <p>Actualmente estoy trabajando en el almacén central del <i>Mas y Mas</i> 
+            (cadena de supermercados), al mismo tiempo estoy cursando un ciclo superior de informática, 
+            Desarrollo de Aplicaciones Web (<strong>DAW</strong>)</p>
+
+        <img src= "./Mas_y_mas.png" alt="Logo Mas y Mas"  width="50%" > 
+
+        <!-- Enlace que lleva a la pag 2 -->
+        <pre>¿Quieres saber mas sobres mi? 
+            Haz clic en la flechita <a href="./proyecto_pag2.html"> =&gt;</a> </pre>
+    </body>
+</html>
